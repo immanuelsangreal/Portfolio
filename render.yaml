@@ -1,7 +1,7 @@
 services:
   - type: web
     name: portfolio
-    runtime: PHP
+    runtime: php
     plan: free
     buildCommand: "composer install --no-dev --optimize-autoloader"
     startCommand: "vendor/bin/heroku-php-apache2 public/"
@@ -10,10 +10,5 @@ services:
         value: prod
       - key: APP_DEBUG
         value: false
-      - key: APP_URL
-        fromService:
-          type: web
-          name: portfolio
-          property: url
       - key: APP_SECRET
         generateValue: true
