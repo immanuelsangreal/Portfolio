@@ -2,8 +2,8 @@ services:
   - type: web
     name: portfolio
     plan: free
-    buildCommand: "composer install --no-dev --optimize-autoloader"
-    startCommand: "vendor/bin/heroku-php-apache2 public/"
+    runtime: docker
+    dockerfilePath: ./Dockerfile
     envVars:
       - key: APP_ENV
         value: prod
