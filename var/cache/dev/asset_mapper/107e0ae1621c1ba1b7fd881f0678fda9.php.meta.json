@@ -1,0 +1,1 @@
+{"resources":[{"@type":"Symfony\\Component\\Config\\Resource\\FileResource","resource":"/home/nikunj/Desktop/WIP/Ovro_symfony/Ovro/assets/bootstrap.js"},{"@type":"Symfony\\Component\\Config\\Resource\\FileExistenceResource","exists":true,"resource":"/home/nikunj/Desktop/WIP/Ovro_symfony/Ovro/vendor/symfony/stimulus-bundle/assets/dist/loader.js"}]}
